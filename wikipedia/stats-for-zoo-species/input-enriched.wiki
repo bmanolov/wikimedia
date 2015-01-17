@@ -1,0 +1,335 @@
+Общ брой записи: '''333'''
+(61 несъществуващи, 209 пренасочвания, една пояснителна)
+
+Легенда:
+* ☛ — пренасочване
+* × — несъществуваща
+* ⇉ — пояснение
+
+== Терариум ==
+
+* [[Тигров питон албинос]] ×
+* [[Цейлонски тигров питон]] ☛ [[Тигров питон]]
+* [[Мрежест питон]] ☛ [[Малайски мрежест питон]]
+* [[Царевичeн смок]] ×
+* [[Новокаледонски ресничест гекон]] ☛ [[Ресничест бананояден гекон]]
+* [[Tънкоопашат смок]] ×
+* [[Дъгова боа]]
+* [[Кубинска дървесна жаба]] ×
+* [[Пясъчна боа]]
+* [[Обикновена боа]] ☛ [[Боа удушвач]]
+* [[Игуана]] ☛ [[Игуани]]
+* [[Пустинен скакалец]] ×
+* [[Азиатска кутийчеста костенурка]] ×
+* [[Червенокрака костенурки]] ×
+* [[Кожеста костенурка]]
+* [[Крокодилов кайман]] ☛ [[Очилат кайман]]
+* [[Нилски крокодили]] ×
+* [[Хондураска тарантула]] ×
+* [[Сколопендра]] ☛ [[Сколопендри]]
+* [[Анамски пръчки]] ☛ [[Анамска пръчка]]
+* [[Азиатска хлебарка]]
+* [[Хамелеон]] ☛ [[Хамелеони]]
+* [[Гигантски тигров охлюв]] ×
+* [[Саванен варан]] ×
+* [[Горска дългокрака жаба]] ☛ [[Горска жаба]]
+* [[Африканска златна звезда]] ×
+* [[Индийска орнаментална тарантула]] ×
+* [[Червенобуза костенурка]] ×
+* [[Гвианска петниста хлебарка]] ×
+* [[Африкански мрежест охлюв]] ×
+* [[Коахила]] ×
+* [[Chinchilla lanigera]] ☛ [[Малка чинчила]]
+* [[Python molurus bivittatus]] ☛ [[Бирмански питон]]
+* [[Python molurus bivittatus]] ☛ [[Бирмански питон]]
+* [[Python molurus pimbura]] ☛ [[Тигров питон]]
+* [[Python regius]] ☛ [[Кралски питон]]
+* [[Python reticulatus]] ☛ [[Малайски мрежест питон]]
+* [[Elaphe guttata]] ☛ [[Царевичен смок]]
+* [[Cynomys ludovicianus]]
+* [[Heterodon nasicus]] ☛ [[Западна свиненоса змия]]
+* [[Eunectes notaeus]] ☛ [[Жълта анаконда]]
+* [[Elaphe taeniura]] ☛ [[Тънкоопашат смок]]
+* [[Lampropeltis getula californiae]] ☛ [[Калифорнийска кралска змия]]
+* [[Lampropeltis triangulum sinaloae]] ☛ [[Синалоанска кралска змия]]
+* [[Lampropeltis triangulum campbelli]] ☛ [[Кембалова кралска змия]]
+* [[Epicrates cenchria maurus]] ☛ [[Колумбийска дъгова боа]]
+* [[Epicrates subflavus]] ☛ [[Ямайска боа]]
+* [[Eryx colubrinus]] ×
+* [[Boa constrictor]] ☛ [[Боа удушвач]]
+* [[Gekko ulikovskii]] ☛ [[Виетнамски златен гекон]]
+* [[Phelsuma standingi]] ☛ [[Обикновен дневен мадагаскарски гекон]]
+* [[Uromastyx acanthinura]] ☛ [[Шипоопашат гущер]]
+* [[Gekko gecko]] ☛ [[Гекон токи]]
+* [[Hemitheconyx caudicinctus]] ☛ [[Дебелоопашат гекон]]
+* [[Eublepharis macularius]] ☛ [[Леопардов гекон]]
+* [[Pogona vitticeps]]
+* [[Iguana iguana]] ☛ [[Зелена игуана]]
+* [[Varanus dumerilii]] ☛ [[Дюмерилов варан]]
+* [[Varanus salvator]] ☛ [[Воден варан]]
+* [[Chelonoidis carbonaria]] ☛ [[Червенопетниста костенурка]]
+* [[Pelodiscus sinensis]] ☛ [[Китайски трионикс]]
+* [[Testudo hermanni]] ☛ [[Шипоопашата костенурка]]
+* [[Caiman crocodilus]] ☛ [[Очилат кайман]]
+* [[Crocodylus niloticus]] ☛ [[Нилски крокодил]]
+* [[Brachypelma albopilosum]] ☛ [[Хондураска къдрокосместа тарантула]]
+* [[Brachypelma smithi]] ☛ [[Мексиканска червеноколенеста тарантула]]
+* [[Brachypelma boehmei]] ☛ [[Мексиканска огненокрака тарантула]]
+* [[Acanthoscurria geniculata]] ☛ [[Гигантска белоколенеста тарантула]]
+* [[Cyclosternum fasciatum]] ☛ [[Паяк птицеяд]]
+* [[Nhandu chromatus]] ☛ [[Бразилска червено-бяла тарантула]]
+* [[Grammostola rosea]] ☛ [[Чилийска роза]]
+* [[Grammostola pulchra]] ☛ [[Черна бразилска тарантула]]
+* [[Scolopendra cingulata]] ☛ [[Средиземноморска сколопендра]]
+* [[Pandinus imperator]] ☛ [[Императорски скорпион]]
+* [[Medauroidea extradentata]] ☛ [[Анамска пръчка]]
+* [[Extatosoma tiaratum]] ☛ [[Страшилка]]
+* [[Nauphoeta cinerea]] ×
+* [[Blaberus craniifer]] ☛ [[Хлебарка Мъртвешка глава]]
+* [[Octodon degus]] ☛ [[Дегу]]
+* [[Mesocricetus auratus]] ☛ [[Златист хамстер]]
+* [[Atelerix albiventris]] ☛ [[Четирипръст таралеж]]
+* [[Bufo viridis]] ☛ [[Зелена крастава жаба]]
+* [[Rana dalmatina]] ☛ [[Горска жаба]]
+* [[Petaurus breviceps]] ☛ [[Захарна торбеста летяща катерица]]
+* [[Meriones unguiculatus]] ☛ [[Монголска песчанка]]
+* [[Acomys cahirinus]] ☛ [[Египетска бодлокожа мишка]]
+* [[Pleurodeles waltl]] ☛ [[Испански ребрест тритон]]
+* [[Cavia porcellus]] ☛ [[Морско свинче]]
+* [[Trachycephalus resinifictrix]]
+* [[Chameleo calyptratus]] ×
+* [[Rhacodactylus auriculatus]] ☛ [[Ушат новокаледонски гекон]]
+* [[Rhacodactylus ciliatus]] ☛ [[Ресничест бананояден гекон]]
+* [[Achatina achatina]] ×
+
+
+== Тревопасни ==
+
+* [[Двугърба камила]]
+* [[Кафяво личи]] ☛ [[Личи]]
+* [[Пони]]
+* [[Домашен як]] ☛ [[Як]]
+* [[Зебра]] ☛ [[Зебри]]
+* [[Лама]] ⇉ [[Лама (животно)]]
+* [[Американски бизон]] ☛ [[Бизон]]
+* [[Лопатар]] ×
+* [[Ватус]] ×
+
+
+* [[Ceratotherium simum]] ☛ [[Бял носорог]]
+* [[Hippopotamus amphibius]] ☛ [[Хипопотам]]
+* [[Cervus elaphus]] ☛ [[Благороден елен]]
+* [[Ammotragus lervia]] ☛ [[Гривест козирог]]
+* [[Kobus leche kafuensis]] ☛ [[Личи]]
+* [[Ovis musimon]] ☛ [[Муфлон]]
+* [[Ovis aries]] ☛ [[Домашна овца]]
+* [[Pecari tajacu]] ☛ [[Огърличесто пекари]]
+* [[Equus ferus caballus]] ☛ [[Кон]]
+* [[Oryx dammah]] ☛ [[Саблерог орикс]]
+* [[Bos grunniens]] ☛ [[Як]]
+* [[Equus quagga]] ☛ [[Равнинна зебра]]
+* [[Lama glama]] ☛ [[Лама (животно)]]
+* [[Bison bison]] ☛ [[Бизон]]
+* [[Dama dama]] ☛ [[Елен лопатар]]
+* [[Capreolus capreolus]] ☛ [[Сърна]]
+* [[Bos taurus]] ☛ [[Домашно говедо]]
+* [[Sus scrofa]] ☛ [[Дива свиня]]
+* [[Dolichotis patagonum]] ☛ [[Патагонска мара]]
+
+
+== Котки ==
+
+* [[Африкански лъв]] ×
+* [[Пума]]
+* [[Амурски тигър]] ☛ [[Сибирски тигър]]
+
+
+* [[Panthera onca]] ☛ [[Ягуар]]
+* [[Panthera leo]] ☛ [[Лъв]]
+* [[Panthera pardus saxicolor]] ☛ [[Персийски леопард]]
+* [[Puma]] ☛ [[Пума АГ]]
+* [[Panthera tigris altaica]] ☛ [[Сибирски тигър]]
+* [[Panthera pardus orientalis]] ☛ [[Амурски леопард]]
+* [[Panthera pardus]] ☛ [[Леопард]]
+
+
+== Маймуни ==
+
+* [[Semnopithecus entellus]] ☛ [[Ханумански лангур]]
+* [[Cebus apella]] ☛ [[Кафяв капуцин]]
+* [[Macaca nemestrina]] ☛ [[Свинеопашат макак]]
+* [[Lemur catta]] ☛ [[Котешки лемур]]
+* [[Varecia variegata]] ☛ [[Черно-бял гривест лемур]]
+* [[Sаguinus oedipus]] ×
+* [[Papio hamadryas]] ☛ [[Мантиест павиан]]
+* [[Callithrix geoffroyi]] ☛ [[Мармозетка на Жофроа]]
+* [[Cebuella pygmaea]] ☛ [[Джуджевидна мармозетка]]
+* [[Chlorocebus aethiops]] ☛ [[Зелена морска котка]]
+* [[Macaca mulatta]] ☛ [[Макак резус]]
+* [[Eulemur rufifrons]] ☛ [[Червенолик лемур]]
+
+
+* [[Eulemur collaris]] ☛ [[Огърличест лемур]]
+* [[Varecia rubra]] ☛ [[Червен гривест лемур]]
+* [[Hylobates lar]] ☛ [[Белорък гибон]]
+* [[Macaca silenus]] ☛ [[Гривест макак]]
+
+
+== Мечки ==
+
+* [[Ursus americanus]] ☛ [[Американска черна мечка]]
+* [[Ursus arctos horribilis]] ☛ [[Гризли]]
+* [[Ursus thibetanus]] ☛ [[Хималайска мечка]]
+* [[Ursus arctos arctos]] ☛ [[Евроазиатска кафява мечка]]
+
+
+== Птици ==
+
+* [[Aquila chrysaetos]] ☛ [[Скален орел]]
+* [[Neophron percnopterus]] ☛ [[Египетски лешояд]]
+* [[Buteo buteo]] ☛ [[Обикновен мишелов]]
+* [[Buteo rufinus]] ☛ [[Белоопашат мишелов]]
+* [[Tyto alba]] ☛ [[Забулена сова]]
+* [[Parabuteo unicinctus]] ☛ [[Мишелов на Харис]]
+* [[Strix uralensis]] ☛ [[Уралска улулица]]
+* [[Strix aluco]] ☛ [[Горска улулица]]
+* [[Falco tinnunculus]] ☛ [[Керкенез]]
+* [[Accipiter gentilis]] ☛ [[Голям ястреб]]
+* [[Corvus corax]] ☛ [[Гарван гробар]]
+* [[Struthio camelus]] ☛ [[Щраус]]
+* [[Dromaius novaehollandiae]] ×
+* [[Rhea americana]] ☛ [[Обикновено нанду]]
+* [[Pavo cristatus]] ☛ [[Обикновен паун]]
+* [[Lophura swinhoii]] ☛ [[Седлат фазан]]
+* [[Chrysolophus pictus]] ☛ [[Златен фазан]]
+* [[Tadorna ferruginea]] ☛ [[Червен ангъч]]
+* [[Melopsittacus undulatus]] ☛ [[Вълнист папагал]]
+* [[Agapornis sp.]] ☛ [[Неразделки]]
+* [[Nymphicus hollandicus]] ☛ [[Корела]]
+* [[Platycercus eximius]] ☛ [[Пъстра розела]]
+* [[Ara ararauna]] ☛ [[Синьо-жълт ара]]
+* [[Anas platyrhynchos]] ☛ [[Зеленоглава патица]]
+* [[Streptopelia roseogrisea]] ☛ [[Африканска гугутка]]
+* [[Anser albifrons]] ☛ [[Голяма белочела гъска]]
+* [[Alopochen aegyptiacus]] ☛ [[Египетска гъска]]
+* [[Anser cygnoides]] ☛ [[Лебедоподобна гъска]]
+* [[Cygnus olor]] ☛ [[Ням лебед]]
+* [[Cygnus atratus]] ☛ [[Черен лебед]]
+* [[Cygnus cygnus]] ☛ [[Поен лебед]]
+* [[Aix galericulata]] ☛ [[Мандаринка]]
+* [[Pelecanus onocrotalus]] ☛ [[Розов пеликан]]
+* [[Ciconia ciconia]] ☛ [[Бял щъркел]]
+* [[Branta leucopsis]] ☛ [[Белобуза гъска]]
+* [[Anas platyrhynchos domesticus]] ×
+* [[Columba livia domestica]] ☛ [[Домашен гълъб]]
+* [[Pteroglossus viridis]]
+* [[Gallus gallus domesticus]] ☛ [[Домашна кокошка]]
+
+
+== Малки хищници ==
+
+* [[Nasua nasua]] ☛ [[Южноамериканско коати]]
+* [[Mungos mungo]] ☛ [[Ивичеста мангуста]]
+* [[Canis aureus]] ☛ [[Златист чакал]]
+* [[Paradoxurus hermaphroditus]] ☛ [[Азиатска палмова цивета]]
+* [[Myocastor coypus]] ☛ [[Нутрия]]
+* [[Aonyx cinerea]] ☛ [[Азиатска късоноктеста видра]]
+* [[Putorius putorius furo]] ×
+* [[Cynomys ludovicianus]]
+* [[Leptailurus serval]] ☛ [[Сервал]]
+* [[Suricata suricatta]] ☛ [[Сурикат]]
+* [[Meles meles]] ☛ [[Язовец]]
+* [[Genetta tigrina]] ☛ [[Тигрова генета]]
+* [[Hystrix cristata]] ☛ [[Гривесто бодливо свинче]]
+
+
+== Риби ==
+
+* [[Gymnocorymbus ternetzi]] ☛ [[Тернеция]]
+* [[Hyphessobrycon herbertaxelrodi]] ☛ [[Черен неон]]
+* [[Nematobrycon palmeri]] ☛ [[Палмер]]
+* [[Paracheirodon innesi]] ☛ [[Обикновен неон]]
+* [[Paracheirodon axelrodi]] ☛ [[Червен неон]]
+* [[Pristella maxillaries]] ×
+* [[Moenkhausia sanctaefilomenae]] ☛ [[Филомена]]
+* [[Thayeria boehlkei]] ☛ [[Хокейка]]
+* [[Hyphessobrycon sweglesi]] ☛ [[Червен фантом]]
+* [[Hyphessobrycon megalopterus]] ☛ [[Черен фантом]]
+* [[Nannostomus beckfordi]] ☛ [[Бекфорди]]
+* [[Colossoma]] ☛ [[Колосома]]
+* [[Metynnis]] ☛ [[Метиниси]]
+* [[Serrasalmus nattereri]] ×
+* [[Hemigrammus rhodostomus]] ☛ [[Родостомус]]
+* [[Hyphessobrycon pulchripinnis]] ☛ [[Лимонена тетра]]
+* [[Prionobrama filigera]] ☛ [[Филигера]]
+* [[Barbus conchonius]] ☛ [[Огнен барбус]]
+* [[Barbus nigrofasciatus]] ☛ [[Черен барбус]]
+* [[Barbus oligolepis]] ☛ [[Puntius oligolepis]]
+* [[Barbus pentazona]] ☛ [[Петпоясен барбус]]
+* [[Шубертов барбус]] ☛ [[Зелен барбус]]
+* [[Barbus tetrazona]] ☛ [[Четирипоясен барбус]]
+* [[Barbus titteya]] ☛ [[Вишнев барбус]]
+* [[Barbus filamentosus]] ☛ [[Dawkinsia filamentosa]]
+* [[Crossocheilus siamensis]] ☛ [[Риба лисица]]
+* [[Barbus denisonii]] ☛ [[Барбус денисони]]
+* [[Brachydanio rerio]] ☛ [[Данио]]
+* [[Brachydanio rerio frankei]] ×
+* [[Tanichthys albonubes]] ☛ [[Кардинал (риба)]]
+* [[Balantiocheilus melanopterus]] ☛ [[Сребърна акула]]
+* [[Labeo bicolor]] ☛ [[Обикновено лабео]]
+* [[Labeo erythrurus]] ☛ [[Зелено лабео]]
+* [[Cyprinus carpio haematopterus]] ☛ [[Кои]]
+* [[Carassius auratus auratus]] ☛ [[Шлаер]]
+* [[Rasbora heteromorpha]] ×
+* [[Mystus]] ☛ [[Мистуси]]
+* [[Botia macracantha]] ☛ [[Тигрова боция]]
+* [[Acantopsis choirorhynchus]] ☛ [[Конска глава (риба)]]
+* [[Botia histrionic]] ×
+* [[Ancistrus cirrhosus]] ☛ [[Тъмен анциструс]]
+* [[Pterygoplichthys]] ☛ [[Птеригоплихти]]
+* [[Kryptopterus bicirrhis]] ☛ [[Стъклен сом]]
+* [[Kryptopterus cryptopterus]]
+* [[Synodontis]] ☛ [[Синодонтиси]]
+* [[Hoplosternum thoracatum]] ×
+* [[Corydoras trilineatus]] ☛ [[Леопардов сом]]
+* [[Corydoras aeneus]] ☛ [[Бронзов сом]]
+* [[Corydoras paleatus]]
+* [[Heteropneustes fossilis]] ☛ [[Сом фосилис]]
+* [[Clarias]] ☛ [[Клариаси]]
+* [[Hemichromis lifalili]]
+* [[Pelvicachromis pulcher]] ☛ [[Крибензис]]
+* [[Melanochromis auratus]] ☛ [[Златен меланохромис]]
+* [[Pseudotropheus elongates]] ×
+* [[Pseudotropheus tropheops]] ×
+* [[Labidochromis caeruleus]]
+* [[Labidochromis hongi]] ×
+* [[Neolamprologus brichardi]]
+* [[Aequidens rivulatus]] ×
+* [[Astronotus ocellatus]] ×
+* [[Mikrogeophagus ramirezi]] ×
+* [[Pterophyllum scalare]] ×
+* [[Cichlasoma managuense]] ×
+* [[Amatitlania nigrofasciata]] ×
+* [[Cichlasoma bifasciatum]] ×
+* [[Heros severus]] ×
+* [[Cichlasoma citrinellum]] ×
+* [[Nimbochromis venustus]]
+* [[Haplochromis]] ×
+* [[Astatotilapia]] ×
+* [[Macropodus opercularis]]
+* [[Trichogaster leeri]] ×
+* [[Trichogaster trichopterus]] ×
+* [[Ctenopoma acutirostre]] ×
+* [[Colisa lalia]] ×
+* [[Poecilia reticulata]] ☛ [[Гупа]]
+* [[Poecilia latipinna]]
+* [[Xiphophorus helleri]] ×
+* [[Xiphophorus maculatus]] ×
+* [[Protopterus aetiopicus]] ×
+* [[Chitala ornate]] ×
+* [[Melanotaenia]] ×
+* [[Osteoglossum]] ×
+* [[Ctenolucius hujeta hujeta]] ×
+* [[Platidoras costatus]] ×
+* [[Pimelodus pictus]] ×
+* [[Pangasius]] ☛ [[Пангасиуси]]
