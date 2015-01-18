@@ -42,7 +42,7 @@ function generateCsv($stats, $dates, $redirects) {
 }
 
 function generateCsvRow($data) {
-	return implode(";", $data) . "\n";
+	return implode(",", $data) . "\n";
 }
 
 function getMonthlySumFromJsonData($jsonData) {
