@@ -5,10 +5,10 @@ $inputFile = __DIR__.'/input.wiki';
 $outputFile = __DIR__.'/input-enriched.wiki';
 
 $inputContent = file_get_contents($inputFile);
-if (!preg_match_all('/\[\[([^]]+)\]\]/', $inputContent, $matches)) {
+$inputPages = extractWikiLinksFromContent($inputContent);
+if (empty($inputPages)) {
 	die("No input pages in file '$inputFile'");
 }
-$inputPages = $matches[1];
 
 $sql = 'SELECT p.page_title, r.rd_title
 	FROM page p
