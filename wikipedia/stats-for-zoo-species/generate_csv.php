@@ -6,6 +6,12 @@ $outputFile = __DIR__.'/view_stats.csv';
 $inputPages = require __DIR__.'/get_wikilinks_from_input.php';
 $dates = require __DIR__.'/dates.php';
 
+$redirects = [];
+$input = file_get_contents(__DIR__.'/input-enriched.wiki');
+if (preg_match_all('/\[\[([^]]+)\]\] ☛ \[\[([^]]+)\]\]/', $input, $matches)) {
+	$redirects = array_combine($matches[1], $matches[2]);
+}
+
 $stats = [];
 foreach ($inputPages as $inputPage) {
 	foreach ($dates as $date) {
@@ -21,17 +27,22 @@ foreach ($inputPages as $inputPage) {
 	}
 }
 
-file_put_contents($outputFile, generateCsv($stats, $dates));
+file_put_contents($outputFile, generateCsv($stats, $dates, $redirects));
 echo "CSV data written to $outputFile.\n";
 
 
-function generateCsv($stats, $dates) {
+function generateCsv($stats, $dates, $redirects) {
 	$csv = '';
-	$csv .= "Вид;" . implode(";", $dates) . "\n";
+	$csv .= generateCsvRow(array_merge(['Страница', 'Цел'], $dates));
 	foreach ($stats as $article => $counts) {
-		$csv .= "$article;".implode(";", $counts) . "\n";
+		$redirectTarget = isset($redirects[$article]) ? $redirects[$article] : '';
+		$csv .= generateCsvRow(array_merge([$article, $redirectTarget], $counts));
 	}
 	return $csv;
+}
+
+function generateCsvRow($data) {
+	return implode(";", $data) . "\n";
 }
 
 function getMonthlySumFromJsonData($jsonData) {
