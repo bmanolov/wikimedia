@@ -49,15 +49,15 @@ $listItemCallback = function($title, $data) {
 	return "# [[$title]]" . $suffix;
 };
 
-echo "= ББИ =\n\n";
+echo "= ББИ =\nСтатии за българи без илюстрация.\n{{А Я}}\n";
 echo getWikiListWithHeaders($personsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
 
 echo "\n\n";
-echo "= ББИ 1 =\n\n";
+echo "= ББИ 1 =\nСтатии за българи, починали след 2000 г., без илюстрация.\n{{А Я}}\n";
 echo getWikiListWithHeaders($alivePersonsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
 
 echo "\n\n";
-echo "= ББИ 2 =\n\n";
+echo "= ББИ 2 =\nСтатии за живи българи без илюстрация.\n{{А Я}}\n";
 echo getWikiListWithHeaders($deadPersonsAfterYear2000WoPicture, $listItemCallback, $listPrefix, $listSuffix);
 
 ################################################################################
