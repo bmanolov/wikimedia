@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__.'/../helpers.php';
+require __DIR__.'/../../vendor/autoload.php';
 
 $statsUrl = 'http://stats.grok.se/json/bg/{DATE}/{ARTICLE}';
 

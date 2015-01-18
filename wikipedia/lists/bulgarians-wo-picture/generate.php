@@ -1,7 +1,7 @@
 <?php
-require __DIR__.'/../helpers.php';
+require __DIR__.'/../../../vendor/autoload.php';
 
-$db = require __DIR__.'/../db.php';
+$db = Master::createDb();
 
 $sql = "SELECT page_namespace ns, page_title page, old_text text
 	FROM page
@@ -20,7 +20,7 @@ foreach ($db->query($sql) as $row) {
 	if (hasPhoto($row['text'])) {
 		continue;
 	}
-	$pageName = pageNameFromDb($row['page']);
+	$pageName = Db::pageNameFromDb($row['page']);
 	$yearOfBirth = getYearOfBirth($row['text']);
 	$yearOfDeath = getYearOfDeath($row['text']);
 	$personsWoPicture[$pageName] = [
@@ -50,15 +50,15 @@ $listItemCallback = function($title, $data) {
 };
 
 echo "= ББИ =\nСтатии за българи без илюстрация.\n{{А Я}}\n";
-echo getWikiListWithHeaders($personsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
+echo Helper::getWikiListWithHeaders($personsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
 
 echo "\n\n";
 echo "= ББИ 1 =\nСтатии за българи, починали след 2000 г., без илюстрация.\n{{А Я}}\n";
-echo getWikiListWithHeaders($alivePersonsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
+echo Helper::getWikiListWithHeaders($alivePersonsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
 
 echo "\n\n";
 echo "= ББИ 2 =\nСтатии за живи българи без илюстрация.\n{{А Я}}\n";
-echo getWikiListWithHeaders($deadPersonsAfterYear2000WoPicture, $listItemCallback, $listPrefix, $listSuffix);
+echo Helper::getWikiListWithHeaders($deadPersonsAfterYear2000WoPicture, $listItemCallback, $listPrefix, $listSuffix);
 
 ################################################################################
 

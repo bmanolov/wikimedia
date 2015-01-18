@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__.'/../helpers.php';
+require __DIR__.'/../../vendor/autoload.php';
 
 $outputFile = __DIR__.'/view_stats.csv';
 
