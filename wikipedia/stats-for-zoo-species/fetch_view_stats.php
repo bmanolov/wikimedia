@@ -1,11 +1,9 @@
 <?php
-require __DIR__.'/../helpers.php';
+require_once __DIR__.'/../helpers.php';
 
 $statsUrl = 'http://stats.grok.se/json/bg/{DATE}/{ARTICLE}';
 
-$inputFile = __DIR__.'/input-enriched.wiki';
-$inputPages = extractWikiLinksFromContent(file_get_contents($inputFile));
-
+$inputPages = require __DIR__.'/get_wikilinks_from_input.php';
 $dates = require __DIR__.'/dates.php';
 
 $throttleSecs = 3;
