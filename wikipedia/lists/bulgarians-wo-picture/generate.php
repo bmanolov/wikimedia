@@ -49,24 +49,28 @@ $listItemCallback = function($title, $data) {
 	return "# [[$title]]" . $suffix;
 };
 
-echo "= ББИ =\nСтатии за българи без илюстрация.\n{{А Я}}\n";
-echo Helper::getWikiListWithHeaders($personsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
+file_put_contents(__DIR__.'/all.wiki',
+	"Статии за българи без илюстрация.\n{{А Я}}\n".
+	Helper::getWikiListWithHeaders($personsWoPicture, $listItemCallback, $listPrefix, $listSuffix)
+);
 
-echo "\n\n";
-echo "= ББИ 1 =\nСтатии за българи, починали след 2000 г., без илюстрация.\n{{А Я}}\n";
-echo Helper::getWikiListWithHeaders($alivePersonsWoPicture, $listItemCallback, $listPrefix, $listSuffix);
+file_put_contents(__DIR__.'/alive.wiki',
+	"Статии за живи българи без илюстрация.\n{{А Я}}\n".
+	Helper::getWikiListWithHeaders($alivePersonsWoPicture, $listItemCallback, $listPrefix, $listSuffix)
+);
 
-echo "\n\n";
-echo "= ББИ 2 =\nСтатии за живи българи без илюстрация.\n{{А Я}}\n";
-echo Helper::getWikiListWithHeaders($deadPersonsAfterYear2000WoPicture, $listItemCallback, $listPrefix, $listSuffix);
+file_put_contents(__DIR__.'/died-after-2000.wiki',
+	"Статии за българи, починали след 2000 г., без илюстрация.\n{{А Я}}\n".
+	Helper::getWikiListWithHeaders($deadPersonsAfterYear2000WoPicture, $listItemCallback, $listPrefix, $listSuffix)
+);
 
 ################################################################################
 
 
 function isBulgarian($text) {
 	$ctext = clearText($text);
-	return preg_match('/(роден.?дата=|раждане=)/', $ctext) // is person
-		&& preg_match('/Категория:Българи|Категория:Български|(роден|раждане).+България/', $ctext);
+	return preg_match('/(роден.?дата|на.?раждане)=/', $ctext) // is person
+		&& preg_match('/Категория:Българи|Категория:Български|(роден.?дата|на.?раждане)=.+България/', $ctext);
 }
 
 function hasPhoto($text) {
@@ -74,7 +78,7 @@ function hasPhoto($text) {
 }
 
 function getYearOfBirth($text) {
-	if (preg_match('/(роден.?дата|раждане)=.+(\d{4})/', clearText($text), $matches)) {
+	if (preg_match('/(роден.?дата|на.?раждане)=.+(\d{4})/', clearText($text), $matches)) {
 		return $matches[2];
 	}
 	return null;
