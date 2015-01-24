@@ -41,7 +41,7 @@ end
 local function links_from_keys(articles)
 	local links = {}
 	for article, v in pairs(articles) do
-		links[#links+1] = '[[:' .. article .. ']]'
+		table.insert(links, '[[:' .. article .. ']]')
 	end
 	return table.concat(links, ', ')
 end
@@ -49,13 +49,13 @@ end
 local function string_split(str, delimiter)
 	local chunks = {}
 	local from = 1
-	local delim_from, delim_to = string.find( str, delimiter, from )
+	local delim_from, delim_to = string.find(str, delimiter, from)
 	while delim_from do
-		chunks[#chunks+1] = string.sub( str, from , delim_from-1 )
+		table.insert(chunks, string.sub(str, from , delim_from-1))
 		from = delim_to + 1
-		delim_from, delim_to = string.find( str, delimiter, from )
+		delim_from, delim_to = string.find(str, delimiter, from)
 	end
-	chunks[#chunks+1] = string.sub( str, from )
+	table.insert(chunks, string.sub(str, from))
 	return chunks
 end
 
@@ -68,21 +68,23 @@ function module.report_table(frame)
 		.. '! ' .. m.Illustrated_article .. '\n'
 		.. '! ' .. m.Nb .. '\n'
 		.. '|-\n'
+	local tables = {}
 	local rows = {}
 	local counter = 0
 	local bg_articles = {}
 	local nonbg_articles = {}
 	local new_articles = {}
-	local chunks, row, arg, file, link, is_new_article
+	local years = {}
+	local chunks, row, arg, year, file, link, is_new_article
 	local data_template = frame.args.data_template
 
 	local lines = string_split(frame:expandTemplate{ title = data_template }, '\n')
 
 	for counter = 1, #lines, 1 do
 
-		chunks = string_split( mw.text.trim(lines[counter], " ;"), ';' )
+		chunks = string_split(mw.text.trim(lines[counter], " ;"), ';')
 		file = mw.text.trim(chunks[2])
-		if not string.find( file, '[[', 1, true ) then
+		if not string.find(file, '[[', 1, true) then
 			file = '[[:File:' .. file .. '|' .. file .. ']]'
 		end
 		row = '|' .. counter .. '||' .. chunks[1] .. '||' .. file .. '||'
@@ -99,7 +101,7 @@ function module.report_table(frame)
 					link = link .. '<sup title="'..m.NewArticle..'">☆</sup>'
 				end
 				row = row .. (i > 3 and ', ' or '') .. link
-				if string.find( chunks[i], 'bg:', 1, true ) then
+				if string.find(chunks[i], 'bg:', 1, true) then
 					bg_articles[link] = 1
 				else
 					nonbg_articles[link] = 1
@@ -107,21 +109,34 @@ function module.report_table(frame)
 			end
 		end
 		row = row .. ' || ' .. (#chunks > 2 and (#chunks - 2) or '')
-		rows[#rows+1] = row
+		year = string.sub(chunks[1], 0, 4)
+		if tables[year] == nil then
+			tables[year] = {}
+			table.insert(years, year)
+		end
+		table.insert(tables[year], row)
 
 	end
 
 	local new_articles_count = table_size(new_articles)
-	local intro = '<div style="float:right; font-size:90%">([['..data_template..'|'..m.source..']])</div>\n'
+	local output = '<div style="float:right; font-size:90%">([['..data_template..'|'..m.source..']])</div>\n'
 		.. '*' .. m.NbFiles .. #lines .. '\n'
 		.. '*' .. m.NbBgArticles .. table_size(bg_articles) .. '\n'
 		.. '*' .. m.NbNonBgArticles .. table_size(nonbg_articles) .. '\n'
 		.. '*' .. m.NewArticles .. new_articles_count .. '\n'
 	if new_articles_count > 0 then
-		intro = intro .. '*: ☆ ' .. links_from_keys(new_articles) .. '\n'
+		output = output .. '*: ☆ ' .. links_from_keys(new_articles) .. '\n'
 	end
 
-	return intro .. '\n' .. head .. table.concat(rows, '\n|-\n') .. '\n|}'
+	table.sort(years)
+	for i = 1, #years do
+		local rows = tables[years[i]]
+		output = output
+			.. '\n== ' .. years[i] .. ' <small>(' .. #rows .. ')</small> ==\n'
+			.. head .. table.concat(rows, '\n|-\n') .. '\n|}\n'
+	end
+
+	return output
 end
 
 return module
