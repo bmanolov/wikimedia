@@ -13,3 +13,6 @@
 .mw-changeslist {
 	min-height: 50em;
 }
+.hlist li a {
+	line-height: 1.5em;
+}

@@ -29,7 +29,7 @@
 	$.each(userNames, function(userName, editCount) {
 		userNameItems.push('<li><a href="#" class="show-user-edits" title="Показване само на приносите на '+userName+'" data-user="'+userName+'" style="font-size:'+(1+editCount*0.1-0.1)+'em">'+userName+'</a> ×'+editCount+'</li>');
 	});
-	var $toggleLinksContainer = $('<ul class="hlist show-user-edits-container">'+userNameItems.join('')+'</ul>').insertBefore('.mw-changeslist');
+	var $toggleLinksContainer = $('<ul class="hlist show-user-edits-container">'+userNameItems.join(' ')+'</ul>').insertBefore('.mw-changeslist');
 
 	$('body').on('click', '.show-user-edits', function() {
 		if ($(this).is('.active')) {
