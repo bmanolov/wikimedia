@@ -1,0 +1,15 @@
+.mw-special-Recentchanges #mw-panel,
+.mw-special-Watchlist #mw-panel {
+	display: none;
+}
+.mw-special-Recentchanges .mw-body,
+.mw-special-Watchlist .mw-body {
+	margin-left: 0;
+}
+.show-user-edits.active {
+	color: black;
+	text-decoration: underline;
+}
+.mw-changeslist {
+	min-height: 50em;
+}
