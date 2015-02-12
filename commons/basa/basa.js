@@ -227,4 +227,7 @@ var pages = fetchPages();
 pages = enhanceFilePagesWithUsagesAndTimestamps(pages, extractNewlyCreatedPages(getOldReport()));
 
 var report = Report.fromFiles(pages);
-console.log(report.toString());
+$('<textarea rows="20"/>')
+	.val(report.toString())
+	.on('focus', function() { $(this).select() })
+	.appendTo('body');
