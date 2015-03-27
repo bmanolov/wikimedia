@@ -9,7 +9,7 @@ var Report = function(rows) {
 		this.sort();
 		var s = '';
 		$.each(this.rows, function(i, row){
-			s += ' '+ row.date +' ; '+ row.file +' ; '+ row.articles.join(' ; ') +'\n';
+			s += ' '+ row.date +' ; '+ $.trim(row.file +' ; '+ row.articles.join(' ; ')) +'\n';
 		});
 		return s;
 	};
