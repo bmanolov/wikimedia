@@ -73,8 +73,8 @@ function getFromApi(params, totalResults) {
 			totalResults = totalResults || {};
 			$.extend(totalResults, results);
 		}
-		if (response["query-continue"]) {
-			getFromApi($.extend(params, response["query-continue"][key]), totalResults);
+		if (response["continue"]) {
+			getFromApi($.extend(params, response["continue"]), totalResults);
 		}
 	});
 	return totalResults;
